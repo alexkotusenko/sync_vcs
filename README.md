@@ -15,9 +15,10 @@ The following fields are expected in this very order
   - if this directory does not exist, the problematic file will be skipped without panicking
 3. `sync_directory` - name of the folder the file will be synced to
   - if this directory does not exist, the problematic file will be skipped without panicking
+4. `overwrite_allowed` - setting to enable/disable overwriting if the file already exists in the sync_directory (for example when you've copied it over once already). This field is **not** optional
 
 
-### CSV file structure & example row
+### CSV file structure & example rows
 (Once again, make sure the fields are specified in the right order)
 ```
 filename,local_directory,sync_directory,overwrite_allowed
