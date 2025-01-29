@@ -22,6 +22,7 @@ The following fields are expected in this very order
 ```
 filename,local_directory,sync_directory,overwrite_allowed
 letter.pdf,/home/username/Documents,/home/username/sync/Nextcloud/Documents,y
+important_document.pdf,/home/username/Documents/important,/home/username/sync/Nextcloud/Documents,N
 ```
 possible values for overwrite_allowed:
 `y`, `Y`, `n`, `N` (no "true" or "false")
